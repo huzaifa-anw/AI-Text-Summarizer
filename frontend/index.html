@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Summarizer</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <main class="app">
+        <h1>Text Summarizer</h1>
+        <p>Paste your text below and get a quick summary.</p>
+
+        <form id="summarizerForm">
+            <label for="textInput">Enter text</label>
+            <textarea id="textInput" rows="10" placeholder="Write or paste your text here..."></textarea>
+            <button type="submit">Summarize</button>
+        </form>
+
+        <section class="summary-section">
+            <h2>Summary</h2>
+            <div id="summaryOutput" class="summary-box">Your summary will appear here.</div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
